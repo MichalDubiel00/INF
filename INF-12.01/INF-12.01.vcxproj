@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{67058B82-0DE2-4116-910A-C66F3786E234}</ProjectGuid>
+    <ProjectGuid>{71726C65-041A-4311-92D6-4D68B29E5FBF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>INF204</RootNamespace>
+    <RootNamespace>INF1201</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="INF 2.04.cpp" />
+    <ClCompile Include="CharListenKnoten.cpp" />
+    <ClCompile Include="INF-12.01.cpp" />
+    <ClCompile Include="MyString2.cpp" />
+    <ClCompile Include="test_charlistenknoten.cpp" />
+    <ClCompile Include="test_charlistenknoten_count.cpp" />
+    <ClCompile Include="test_charlistenknoten_id.cpp" />
+    <ClCompile Include="test_deep_copy.cpp" />
+    <ClCompile Include="test_hinten_anfuegen.cpp" />
+    <ClCompile Include="test_loesche_alle.cpp" />
+    <ClCompile Include="test_mystring2_at.cpp" />
+    <ClCompile Include="test_mystring2_copy_assignment.cpp" />
+    <ClCompile Include="test_mystring2_destruktor.cpp" />
+    <ClCompile Include="test_mystring2_from_string.cpp" />
+    <ClCompile Include="test_mystring2_length.cpp" />
+    <ClCompile Include="test_mystring2_operator_plus.cpp" />
+    <ClCompile Include="test_mystring2_step_1.cpp" />
+    <ClCompile Include="test_mystring2_to_string.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="catch.h" />
+    <ClInclude Include="CharListenKnoten.h" />
+    <ClInclude Include="MyString2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{67058B82-0DE2-4116-910A-C66F3786E234}</ProjectGuid>
+    <ProjectGuid>{B0B22063-E2F8-400C-8A0A-2CC6E015A417}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>INF204</RootNamespace>
+    <RootNamespace>PflichtOfflineAufgabeO0404</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="INF 2.04.cpp" />
+    <ClCompile Include="Pflicht-Offline-Aufgabe O 04-04.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

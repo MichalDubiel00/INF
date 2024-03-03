@@ -20,10 +20,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{67058B82-0DE2-4116-910A-C66F3786E234}</ProjectGuid>
+    <ProjectGuid>{4913DECE-FDDA-4C94-9D27-F69329CE25E4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>INF204</RootNamespace>
+    <RootNamespace>Nr08INFVorbereitung</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>INF-08</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,7 +152,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="INF 2.04.cpp" />
+    <ClCompile Include="liste.cpp" />
+    <ClCompile Include="liste_main.cpp" />
+    <ClCompile Include="test_aus_liste_loeschen.cpp" />
+    <ClCompile Include="test_hinten_anfuegen.cpp" />
+    <ClCompile Include="test_in_liste_einfuegen.cpp" />
+    <ClCompile Include="test_liste_als_string_rueckwaerts.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="catch.h" />
+    <ClInclude Include="liste.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
